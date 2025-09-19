@@ -1,0 +1,61 @@
+@media only screen and (min-width:320px) and (max-width:580px)
+{
+ body 
+{
+margin: 0px;
+padding: 0px;
+overflow-x: hidden;
+box-sizing: border-box;
+font-family: 'Times New Roman', Times, serif;   
+background-color: black !important; 
+}
+.clc-app
+{
+width: 80%;
+height: auto;
+margin: 0;
+margin-left: 0;    
+border:0 !important;
+}
+input[type="text"]
+{
+width: 94% !important;
+height: auto;
+margin: auto;    
+text-align: right;
+font-size: 50px !important;
+background-color: black !important;
+border: 0 !important;
+ color: white !important;
+}
+#btn
+{
+width: 95px !important;
+height: 95px !important;
+margin: 6px !important;
+padding: 18px !important;
+background-color: white;    
+justify-content: space-between;
+border-radius: 100% !important;
+}   
+#btn1
+{
+width: 95px !important;
+height: 95px !important;
+margin: 6px !important;
+padding: 15px !important;
+background-color: yellow !important;    
+justify-content: space-between;
+border-radius: 100% !important;
+color: black !important;
+}
+.table 
+{
+border: 0 !important;    
+border:solid 1px black !important;
+}
+::placeholder
+{
+    color: white !important;
+}
+}

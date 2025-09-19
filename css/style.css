@@ -1,0 +1,32 @@
+@import url('responsive.css');
+body 
+{
+margin: 0px;
+padding: 0px;
+overflow-x: hidden;
+box-sizing: border-box;
+font-family: 'Times New Roman', Times, serif;   
+background-color: lightgray; 
+}
+.clc-app
+{
+width: 80%;
+height: auto;
+margin: 0;
+margin-left: 0;    
+}
+input[type="text"]
+{
+text-align: right;
+font-size: 30px;
+}
+#btn,#btn1
+{
+width: 24.1%;
+height: auto;
+margin: 3px;
+padding: 15px;
+background-color: white;    
+justify-content: space-between;
+
+}
